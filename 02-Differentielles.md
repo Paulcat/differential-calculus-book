@@ -77,7 +77,7 @@ On considère la fonction $f(x_1,x_2) = 2x_1^2 + x_1x_2 - 3x_2^2 - x_1 + 1$. Ses
 \end{equation*}
 :::
 
-:::{warning}
+:::{warning}Attention
 La différentiabilité d'une fonction entraîne l'existence des dérivées partielles, mais l'inverse n'est pas vrai: une fonction peut avoir des dérivées partielles en $a$ sans même être continue en $a$.
 :::
 
@@ -85,6 +85,7 @@ La différentiabilité d'une fonction entraîne l'existence des dérivées parti
 ### Gradient
 
 Le gradient de $f$ est le vecteur de ses dérivées partielles.
+
 :::{prf:definition}Gradient
 :label: def:gradient
 Soit $f:\mathbb{R}^n \to \mathbb{R}$ une fonction différentiable. Le *gradient* de $f$ en un point $a$, usuellement noté $\nabla f(a)$ ou $f'(a)$, est le vecteur défini par
@@ -92,6 +93,7 @@ Soit $f:\mathbb{R}^n \to \mathbb{R}$ une fonction différentiable. Le *gradient*
     \nabla f(a) = \begin{bmatrix} \partial_1f(a) \\ \partial_2 f(a) \\ \vdots \\ \partial_n f(a) \end{bmatrix} \in \mathbb{R}^n.
 \end{equation*}
 :::
+
 Sur $\mathbb{R}^n$, on peut définir le produit scalaire usuel
 \begin{equation*}
     x \cdot y = \sum_{i=1}^n x_i y_i \quad \forall x,y \in \mathbb{R}^n
