@@ -1,0 +1,9 @@
+# In _toc.yml
+
+format: jb-book
+root: README
+
+chapters:
+  - file: 01-Basics
+  - file: 02-Differentielles
+  - file: 03-Convexite
