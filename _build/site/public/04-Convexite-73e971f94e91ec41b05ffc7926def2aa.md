@@ -1,0 +1,26 @@
+# Convexité
+
+Une propriété fondamentale en optimisation est la *convexité*. Cette notion est plus cruciale que la différentiabilité quand il s'agit de minimiser une fonction.
+
+:::{prf:definition}Ensemble convexe
+Un ensemble $C$ est *convexe* si toute ligne joignant deux points de $C$ est entièrement contenues dans $C$, c'est-à-dire, pour tout $(x,y) \in C$ et pour tout $0 \leq \theta \leq 1$
+```{math}
+    \theta x + (1-\theta)y \in C.
+```
+:::
+
+:::{image} images/cvxsets.png
+:label: fig:cvx-sets
+Exemple d'ensembles convexes et non-convexes. *Gauche*: l'hexagone (avec son contour) est convexe. *Centre*: l'anneau n'est pas convexe, puisque le segment entre les deux points dessinés n'est pas incluse dans l'ensemble. *Droite*: le carré ne contient pas tous les points du bords, et n'est pas convexe.
+:::
+
+:::{prf:definition}Fonction convexe
+Une fonction $f:E \to \mathbb{R}$ est dite *convexe* si pour tout $x,y \in E$, pour tout $\lambda \in [0,1]$,
+```{math}
+:label: eq:convexity
+    f(\lambda x +  (1-\lambda)y) \leq \lambda f(x) + (1-\lambda) f(y).
+```
+Lorsque l'inégalité est stricte, $f$ est dite *strictement convexe*.
+:::
+
+Géométriquement, l'équation [](#eq:convexity) exprime que 

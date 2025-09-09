@@ -1,0 +1,37 @@
+# Notions d'algèbre linéaire
+
+L'objectif du cours est de vous introduire à des problèmes d'optimisation définis sur $\mathbb{R}^n$ (vecteurs de dimension $n$), $\mathbb{R}^{n_1\times n_2}$ (matrices) ou $\mathbb{R}^{n_1\times\ldots\times n_p}$ (tenseurs).
+
+Ces espaces appartiennent à la catégorie des *espaces vectoriels normés*. Ces espaces sont de plus de *dimension finie*.
+
+:::{note}
+On peut étudier des problèmes d'optimisation sur des espaces plus généraux (espaces de dimension infinie, espaces métriques, etc...).  Avantage: norme, produit scalaire, etc...
+:::
+
+## Normes
+
+:::{important}
+:label: my-note
+Une norme
+:::
+
+:::{margin}
+test1
+:::
+
+:::{sidebar}
+test2
+:::
+
+:::{topic}
+test3
+:::
+
+
+:::{embed}
+test4
+:::
+
+
+ceci est un [embedding](#my-note)
+

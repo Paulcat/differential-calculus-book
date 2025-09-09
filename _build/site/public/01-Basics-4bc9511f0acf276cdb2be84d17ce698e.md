@@ -1,0 +1,51 @@
+# Notions d'algèbre linéaire
+
+L'objectif du cours est de vous introduire à des problèmes d'optimisation définis sur $\mathbb{R}^n$ (l'ensemble des vecteurs réels de dimension $n$). Cet espace est l'exemple le plus standard d'un *$\mathbb{R}$-espace vectoriel* de dimension finie.
+
+:::{note}
+On peut étudier des problèmes d'optimisation sur des espaces bien plus généraux (espaces de dimension infinie, espaces métriques, etc...).  Avantage: norme, produit scalaire, etc...
+:::
+
+L'objectif de cette page est de vous donner quelques concepts clés associés à un espace vectoriel.
+
+## Applications linéaires
+
+Soit $E$ et $F$ deux $\mathbb{R}$-espaces vectoriels.
+
+:::{prf:definition}
+Une application $f:E \to F$ est appelée *application linéaire* si pour tout $(x,y) \in E$, pour tout $\lambda,\mu \in \mathbb{R}$, on a
+\begin{equation*}
+    f(\lambda x + \mu y) = \lambda f(x) + \mu f(y)
+\end{equation*}
+
+Lorsque $F = \mathbb{R}$, i.e. lorsque $f$ est à valeurs scalaires, on parle de *forme linéaire*.
+:::
+
+Dans la suite, on suppose que $E$ et $F$ sont tous deux de dimension finie (ce sera toujours le cas dans le cadre de ce cours), disons $n$ et $m$ respectivement. Soient $(e_1, \ldots, e_n)$ une base de $E$ et $(v_1,\ldots,v_m)$ une base de $F$, c'est-à-dire que tout vecteur de $E$ (resp. $F$) se décompose de manière unique comme une combinaison linéaire des vecteurs $e_i$ (respectivement $v_j$).
+
+Alors connaître $f$, c'est simplement connaître les images $f(e_i)$ de chacun des vecteurs de la base de $E$
+
+# Normes
+
+Certains espaces vectoriels
+
+:::{prf:definition}
+:label: my-note
+Une norme
+:::
+
+:::{margin}
+test1
+:::
+
+:::{sidebar}
+test2
+:::
+
+:::{topic}
+test3
+:::
+
+
+ceci est un [embedding](#my-note)
+
