@@ -14,3 +14,6 @@ site:
   # options:
   #   favicon: favicon.ico
   #   logo: site_logo.png
+actions:
+  - title: Optimisation et Sciences des Données
+    url: https://github.com/Paulcat/differential-calculus-book/README.md
