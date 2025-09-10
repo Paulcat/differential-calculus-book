@@ -31,6 +31,10 @@ est infiniment petit par rapport à $h$, c'est-à-dire
 
 L'intérêt de considérer un ouvert $U$ est que cela permet de définir une boule ouverte autour de $a$ tel que, pour $h$ suffisamment petit, $a+h \in U$. Lorsqu'elle existe, l'application $D_af$ est unique: on écrira $D_af(h) = f'(a) \cdot h$, pour mettre en évidence la linéarité.
 
+:::{margin}
+Un *ouvert* $U$ de $E$ est un ensemble tel que, pour tout élément $x$ de cet ensemble, on peut toujours trouver une boule ouverte $B$ centrée en $x$ telle que $B$ soit entièrement contenue dans $U$.
+:::
+
 Dans la suite, on se concentre à nouveau sur les cas où $E = \mathbb{R}^n$ et $F = \mathbb{R}^m$, munis de leurs bases canoniques respectives.
 
 ## Fonctions de $\mathbb{R}$ dans $\mathbb{R}$
