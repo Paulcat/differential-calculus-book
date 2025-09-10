@@ -1,4 +1,0 @@
-# requirements
-
-jupyter-book==2.0.0b1
-myst-parser==3.0.1
