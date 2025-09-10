@@ -4,11 +4,11 @@
 
 Ce site complémente les supports du cours "Optimisation et Sciences des Données" du [Master Ingénierie des Systèmes Complexes](fst.univ-lorraine.fr/formations/master-ingenierie-des-systemes-complexes) de l'Université de Lorraine. Les différentes notions mathématiques abordées en cours y sont revisitées de manière plus approfondies
 
-:::{Warning}En construction
+:::{warning}En construction
 Ces notes de cours sont en cours de construction et seront potentiellement mises à jour. Toute remarque ou commentaire seront les bienvenus.
 :::
 
-:::{Hint}Objectifs
+:::{hint}Objectifs
 - Savoir reconnaître et formuler un problème d'optimisation
 - Savoir donner des critères théoriques d'optimalité d'un problème
 - Maîtriser des algorithmes d'optimisation de premier et de deuxième ordre
@@ -19,7 +19,7 @@ Ces notes de cours sont en cours de construction et seront potentiellement mises
 - 20h de classes, réparties en CM (6h), TD (6h) et TP (6h-8h)
 - Le matériel de cours est disponible sur [Arche](https://arche.univ-lorraine.fr/) (slides, feuilles de TD et de TP)
 
-:::{Note}Pré-requis
+:::{note}Pré-requis
 Ces notes reviennent sur des notions importantes en algèbre linéaire et calcul différentiel, requises pour bien comprendre le cours.
 :::
 
