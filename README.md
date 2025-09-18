@@ -13,6 +13,7 @@ Ces notes de cours sont en cours de construction et seront potentiellement mises
 - Connaître la nomenclature des problèmes d'optimisation
 - Savoir donner des critères théoriques d'optimalité d'un problème
 - Maîtriser des algorithmes d'optimisation de premier et de deuxième ordre
+
 *Science des données*:
 - Maîtriser des algorithmes de décomposition matricielle (ICA, NMF, SVD)
 - 
