@@ -178,12 +178,12 @@ On rencontrera également dans ce cours des normes matricielles, sur $\mathbb{R}
 - **La norme infini**: pour tout $X \in \mathbb{R}^{n \times m}$,
 \begin{equation*}
     |\!|X|\!|_\infty = \sup_{ij} |{X_{ij}}|
+\end{equation*}    
 - **La norme d'opérateur**: pour tout $X \in \mathbb{R}^{n\times m}$,
 \begin{equation*}
     |\!|X|\!|_{2,2} = \sup_{v \neq 0} \frac{|\!|Xv|\!|_2}{|\!|v|\!|_2}
 \end{equation*}
 En particulier, cette dernière norme vérifie la propriété importante que pour tout vecteur $v \in \mathbb{R^m}$, $|\!|Xv|\!|_2 \leq |\!|X|\!|_{2,2} |\!|v|\!|_2$.
-\end{equation*}
 :::
 
 
